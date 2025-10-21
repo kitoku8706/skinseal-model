@@ -1,0 +1,38 @@
+Epoch 1/20 (131.0s) - Train: Loss=2.3038, Acc=0.3470 | Val: Loss=1.6185, Acc=0.4961 | LR=1.00e-04
+Best model saved at epoch 1 with val_acc: 0.4961
+Epoch 2/20 (122.7s) - Train: Loss=1.5291, Acc=0.5460 | Val: Loss=1.2957, Acc=0.6009 | LR=1.00e-04
+Best model saved at epoch 2 with val_acc: 0.6009
+Epoch 3/20 (122.3s) - Train: Loss=1.1820, Acc=0.6440 | Val: Loss=1.1336, Acc=0.6507 | LR=1.00e-04
+Best model saved at epoch 3 with val_acc: 0.6507
+Epoch 4/20 (122.0s) - Train: Loss=0.9494, Acc=0.7017 | Val: Loss=1.0104, Acc=0.6902 | LR=1.00e-04
+Best model saved at epoch 4 with val_acc: 0.6902
+Epoch 5/20 (122.3s) - Train: Loss=0.7623, Acc=0.7581 | Val: Loss=0.9497, Acc=0.7135 | LR=1.00e-04
+Best model saved at epoch 5 with val_acc: 0.7135
+Epoch 6/20 (123.4s) - Train: Loss=0.6156, Acc=0.8016 | Val: Loss=0.9043, Acc=0.7309 | LR=1.00e-04
+Best model saved at epoch 6 with val_acc: 0.7309
+Epoch 7/20 (128.6s) - Train: Loss=0.4994, Acc=0.8373 | Val: Loss=0.9162, Acc=0.7439 | LR=1.00e-04
+Best model saved at epoch 7 with val_acc: 0.7439
+Epoch 8/20 (128.0s) - Train: Loss=0.4079, Acc=0.8673 | Val: Loss=0.8850, Acc=0.7549 | LR=1.00e-04
+Best model saved at epoch 8 with val_acc: 0.7549
+Epoch 9/20 (126.1s) - Train: Loss=0.3505, Acc=0.8843 | Val: Loss=0.9045, Acc=0.7568 | LR=1.00e-04
+Best model saved at epoch 9 with val_acc: 0.7568
+Epoch 10/20 (122.4s) - Train: Loss=0.3018, Acc=0.9007 | Val: Loss=0.9500, Acc=0.7568 | LR=1.00e-04
+Epoch 11/20 (125.1s) - Train: Loss=0.2587, Acc=0.9170 | Val: Loss=0.9081, Acc=0.7613 | LR=1.00e-04
+Best model saved at epoch 11 with val_acc: 0.7613
+Epoch 12/20 (127.3s) - Train: Loss=0.2212, Acc=0.9269 | Val: Loss=0.9227, Acc=0.7691 | LR=1.00e-04
+Best model saved at epoch 12 with val_acc: 0.7691
+Epoch 13/20 (127.4s) - Train: Loss=0.1996, Acc=0.9314 | Val: Loss=0.9199, Acc=0.7658 | LR=1.00e-04
+Epoch 14/20 (128.6s) - Train: Loss=0.1812, Acc=0.9425 | Val: Loss=0.9687, Acc=0.7723 | LR=1.00e-04
+Best model saved at epoch 14 with val_acc: 0.7723
+Epoch 15/20 (128.4s) - Train: Loss=0.1527, Acc=0.9491 | Val: Loss=0.9564, Acc=0.7840 | LR=1.00e-04
+Best model saved at epoch 15 with val_acc: 0.7840
+Epoch 16/20 (127.8s) - Train: Loss=0.1653, Acc=0.9467 | Val: Loss=0.9683, Acc=0.7827 | LR=1.00e-04
+Epoch 17/20 (127.7s) - Train: Loss=0.1456, Acc=0.9539 | Val: Loss=0.9815, Acc=0.7820 | LR=1.00e-04
+Epoch 18/20 (122.4s) - Train: Loss=0.1370, Acc=0.9561 | Val: Loss=1.0171, Acc=0.7749 | LR=1.00e-04
+Epoch 19/20 (122.0s) - Train: Loss=0.1198, Acc=0.9585 | Val: Loss=0.9912, Acc=0.7840 | LR=1.00e-04
+Epoch 20/20 (126.5s) - Train: Loss=0.1021, Acc=0.9674 | Val: Loss=0.9443, Acc=0.7898 | LR=5.00e-05
+Best model saved at epoch 20 with val_acc: 0.7898
+
+학습 완료!
+총 소요 시간: 41.9분
+최고 검증 정확도: 0.7898

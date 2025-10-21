@@ -1,0 +1,59 @@
+=== 피부질환 분류 모델 평가 결과 ===
+
+평가 시간: 2025-10-21 13:10:11
+전체 샘플 수: 1546
+전체 정확도: 0.7898
+
+=== 클래스별 정확도 ===
+Acne: 0.9846
+Actinic_Keratosis: 0.7952
+Benign_tumors: 0.7355
+Bullous: 0.7455
+Candidiasis: 0.7778
+DrugEruption: 0.7377
+Eczema: 0.7500
+Infestations_Bites: 0.6833
+Lichen: 0.6230
+Lupus: 0.6471
+Moles: 0.6500
+Psoriasis: 0.7727
+Rosacea: 0.8571
+Seborrh_Keratoses: 0.8235
+SkinCancer: 0.6753
+Sun_Sunlight_Damage: 0.6765
+Tinea: 0.6765
+Unknown_Normal: 0.9735
+Vascular_Tumors: 0.8333
+Vasculitis: 0.8269
+Vitiligo: 0.9268
+Warts: 0.8281
+
+=== 상세 분류 리포트 ===
+                     precision    recall  f1-score   support
+
+               Acne       0.88      0.98      0.93        65
+  Actinic_Keratosis       0.80      0.80      0.80        83
+      Benign_tumors       0.76      0.74      0.75       121
+            Bullous       0.72      0.75      0.73        55
+        Candidiasis       0.62      0.78      0.69        27
+       DrugEruption       0.71      0.74      0.73        61
+             Eczema       0.76      0.75      0.76       112
+ Infestations_Bites       0.71      0.68      0.69        60
+             Lichen       0.62      0.62      0.62        61
+              Lupus       0.56      0.65      0.60        34
+              Moles       0.65      0.65      0.65        40
+          Psoriasis       0.81      0.77      0.79        88
+            Rosacea       0.83      0.86      0.84        28
+  Seborrh_Keratoses       0.84      0.82      0.83        51
+         SkinCancer       0.79      0.68      0.73        77
+Sun_Sunlight_Damage       0.57      0.68      0.62        34
+              Tinea       0.82      0.68      0.74       102
+     Unknown_Normal       0.98      0.97      0.98       189
+    Vascular_Tumors       0.77      0.83      0.80        60
+         Vasculitis       0.73      0.83      0.77        52
+           Vitiligo       0.90      0.93      0.92        82
+              Warts       0.83      0.83      0.83        64
+
+           accuracy                           0.79      1546
+          macro avg       0.76      0.77      0.76      1546
+       weighted avg       0.79      0.79      0.79      1546
