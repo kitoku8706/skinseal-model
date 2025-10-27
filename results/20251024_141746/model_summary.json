@@ -1,0 +1,1158 @@
+{
+  "model_type": "EfficientNet",
+  "total_params": 4035730,
+  "trainable_params": 4035730,
+  "model_size_mb": 15.395088195800781,
+  "layers": [
+    {
+      "name": "features.0.0",
+      "type": "Conv2d",
+      "parameters": 864
+    },
+    {
+      "name": "features.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 64
+    },
+    {
+      "name": "features.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.1.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 288
+    },
+    {
+      "name": "features.1.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 64
+    },
+    {
+      "name": "features.1.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.1.0.block.1.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.1.0.block.1.fc1",
+      "type": "Conv2d",
+      "parameters": 264
+    },
+    {
+      "name": "features.1.0.block.1.fc2",
+      "type": "Conv2d",
+      "parameters": 288
+    },
+    {
+      "name": "features.1.0.block.1.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.1.0.block.1.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.1.0.block.2.0",
+      "type": "Conv2d",
+      "parameters": 512
+    },
+    {
+      "name": "features.1.0.block.2.1",
+      "type": "BatchNorm2d",
+      "parameters": 32
+    },
+    {
+      "name": "features.1.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 1536
+    },
+    {
+      "name": "features.2.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 192
+    },
+    {
+      "name": "features.2.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.0.block.1.0",
+      "type": "Conv2d",
+      "parameters": 864
+    },
+    {
+      "name": "features.2.0.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 192
+    },
+    {
+      "name": "features.2.0.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.0.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.0.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 388
+    },
+    {
+      "name": "features.2.0.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 480
+    },
+    {
+      "name": "features.2.0.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.0.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.0.block.3.0",
+      "type": "Conv2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.2.0.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 48
+    },
+    {
+      "name": "features.2.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.1.block.0.0",
+      "type": "Conv2d",
+      "parameters": 3456
+    },
+    {
+      "name": "features.2.1.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 288
+    },
+    {
+      "name": "features.2.1.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.1.block.1.0",
+      "type": "Conv2d",
+      "parameters": 1296
+    },
+    {
+      "name": "features.2.1.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 288
+    },
+    {
+      "name": "features.2.1.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.1.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.1.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 870
+    },
+    {
+      "name": "features.2.1.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 1008
+    },
+    {
+      "name": "features.2.1.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.1.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.2.1.block.3.0",
+      "type": "Conv2d",
+      "parameters": 3456
+    },
+    {
+      "name": "features.2.1.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 48
+    },
+    {
+      "name": "features.2.1.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 3456
+    },
+    {
+      "name": "features.3.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 288
+    },
+    {
+      "name": "features.3.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.0.block.1.0",
+      "type": "Conv2d",
+      "parameters": 3600
+    },
+    {
+      "name": "features.3.0.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 288
+    },
+    {
+      "name": "features.3.0.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.0.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.0.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 870
+    },
+    {
+      "name": "features.3.0.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 1008
+    },
+    {
+      "name": "features.3.0.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.0.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.0.block.3.0",
+      "type": "Conv2d",
+      "parameters": 5760
+    },
+    {
+      "name": "features.3.0.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 80
+    },
+    {
+      "name": "features.3.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.1.block.0.0",
+      "type": "Conv2d",
+      "parameters": 9600
+    },
+    {
+      "name": "features.3.1.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 480
+    },
+    {
+      "name": "features.3.1.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.1.block.1.0",
+      "type": "Conv2d",
+      "parameters": 6000
+    },
+    {
+      "name": "features.3.1.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 480
+    },
+    {
+      "name": "features.3.1.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.1.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.1.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 2410
+    },
+    {
+      "name": "features.3.1.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 2640
+    },
+    {
+      "name": "features.3.1.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.1.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.3.1.block.3.0",
+      "type": "Conv2d",
+      "parameters": 9600
+    },
+    {
+      "name": "features.3.1.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 80
+    },
+    {
+      "name": "features.3.1.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 9600
+    },
+    {
+      "name": "features.4.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 480
+    },
+    {
+      "name": "features.4.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.0.block.1.0",
+      "type": "Conv2d",
+      "parameters": 2160
+    },
+    {
+      "name": "features.4.0.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 480
+    },
+    {
+      "name": "features.4.0.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.0.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.0.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 2410
+    },
+    {
+      "name": "features.4.0.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 2640
+    },
+    {
+      "name": "features.4.0.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.0.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.0.block.3.0",
+      "type": "Conv2d",
+      "parameters": 19200
+    },
+    {
+      "name": "features.4.0.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 160
+    },
+    {
+      "name": "features.4.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.1.block.0.0",
+      "type": "Conv2d",
+      "parameters": 38400
+    },
+    {
+      "name": "features.4.1.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 960
+    },
+    {
+      "name": "features.4.1.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.1.block.1.0",
+      "type": "Conv2d",
+      "parameters": 4320
+    },
+    {
+      "name": "features.4.1.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 960
+    },
+    {
+      "name": "features.4.1.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.1.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.1.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 9620
+    },
+    {
+      "name": "features.4.1.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 10080
+    },
+    {
+      "name": "features.4.1.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.1.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.1.block.3.0",
+      "type": "Conv2d",
+      "parameters": 38400
+    },
+    {
+      "name": "features.4.1.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 160
+    },
+    {
+      "name": "features.4.1.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.2.block.0.0",
+      "type": "Conv2d",
+      "parameters": 38400
+    },
+    {
+      "name": "features.4.2.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 960
+    },
+    {
+      "name": "features.4.2.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.2.block.1.0",
+      "type": "Conv2d",
+      "parameters": 4320
+    },
+    {
+      "name": "features.4.2.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 960
+    },
+    {
+      "name": "features.4.2.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.2.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.2.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 9620
+    },
+    {
+      "name": "features.4.2.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 10080
+    },
+    {
+      "name": "features.4.2.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.2.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.4.2.block.3.0",
+      "type": "Conv2d",
+      "parameters": 38400
+    },
+    {
+      "name": "features.4.2.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 160
+    },
+    {
+      "name": "features.4.2.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 38400
+    },
+    {
+      "name": "features.5.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 960
+    },
+    {
+      "name": "features.5.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.0.block.1.0",
+      "type": "Conv2d",
+      "parameters": 12000
+    },
+    {
+      "name": "features.5.0.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 960
+    },
+    {
+      "name": "features.5.0.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.0.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.0.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 9620
+    },
+    {
+      "name": "features.5.0.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 10080
+    },
+    {
+      "name": "features.5.0.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.0.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.0.block.3.0",
+      "type": "Conv2d",
+      "parameters": 53760
+    },
+    {
+      "name": "features.5.0.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 224
+    },
+    {
+      "name": "features.5.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.1.block.0.0",
+      "type": "Conv2d",
+      "parameters": 75264
+    },
+    {
+      "name": "features.5.1.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 1344
+    },
+    {
+      "name": "features.5.1.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.1.block.1.0",
+      "type": "Conv2d",
+      "parameters": 16800
+    },
+    {
+      "name": "features.5.1.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 1344
+    },
+    {
+      "name": "features.5.1.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.1.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.1.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 18844
+    },
+    {
+      "name": "features.5.1.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 19488
+    },
+    {
+      "name": "features.5.1.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.1.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.1.block.3.0",
+      "type": "Conv2d",
+      "parameters": 75264
+    },
+    {
+      "name": "features.5.1.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 224
+    },
+    {
+      "name": "features.5.1.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.2.block.0.0",
+      "type": "Conv2d",
+      "parameters": 75264
+    },
+    {
+      "name": "features.5.2.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 1344
+    },
+    {
+      "name": "features.5.2.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.2.block.1.0",
+      "type": "Conv2d",
+      "parameters": 16800
+    },
+    {
+      "name": "features.5.2.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 1344
+    },
+    {
+      "name": "features.5.2.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.2.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.2.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 18844
+    },
+    {
+      "name": "features.5.2.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 19488
+    },
+    {
+      "name": "features.5.2.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.2.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.5.2.block.3.0",
+      "type": "Conv2d",
+      "parameters": 75264
+    },
+    {
+      "name": "features.5.2.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 224
+    },
+    {
+      "name": "features.5.2.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 75264
+    },
+    {
+      "name": "features.6.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 1344
+    },
+    {
+      "name": "features.6.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.0.block.1.0",
+      "type": "Conv2d",
+      "parameters": 16800
+    },
+    {
+      "name": "features.6.0.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 1344
+    },
+    {
+      "name": "features.6.0.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.0.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.0.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 18844
+    },
+    {
+      "name": "features.6.0.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 19488
+    },
+    {
+      "name": "features.6.0.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.0.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.0.block.3.0",
+      "type": "Conv2d",
+      "parameters": 129024
+    },
+    {
+      "name": "features.6.0.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 384
+    },
+    {
+      "name": "features.6.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.1.block.0.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.6.1.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.6.1.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.1.block.1.0",
+      "type": "Conv2d",
+      "parameters": 28800
+    },
+    {
+      "name": "features.6.1.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.6.1.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.1.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.1.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 55344
+    },
+    {
+      "name": "features.6.1.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 56448
+    },
+    {
+      "name": "features.6.1.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.1.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.1.block.3.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.6.1.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 384
+    },
+    {
+      "name": "features.6.1.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.2.block.0.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.6.2.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.6.2.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.2.block.1.0",
+      "type": "Conv2d",
+      "parameters": 28800
+    },
+    {
+      "name": "features.6.2.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.6.2.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.2.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.2.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 55344
+    },
+    {
+      "name": "features.6.2.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 56448
+    },
+    {
+      "name": "features.6.2.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.2.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.2.block.3.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.6.2.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 384
+    },
+    {
+      "name": "features.6.2.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.3.block.0.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.6.3.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.6.3.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.3.block.1.0",
+      "type": "Conv2d",
+      "parameters": 28800
+    },
+    {
+      "name": "features.6.3.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.6.3.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.3.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.3.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 55344
+    },
+    {
+      "name": "features.6.3.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 56448
+    },
+    {
+      "name": "features.6.3.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.3.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.6.3.block.3.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.6.3.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 384
+    },
+    {
+      "name": "features.6.3.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.7.0.block.0.0",
+      "type": "Conv2d",
+      "parameters": 221184
+    },
+    {
+      "name": "features.7.0.block.0.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.7.0.block.0.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.7.0.block.1.0",
+      "type": "Conv2d",
+      "parameters": 10368
+    },
+    {
+      "name": "features.7.0.block.1.1",
+      "type": "BatchNorm2d",
+      "parameters": 2304
+    },
+    {
+      "name": "features.7.0.block.1.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.7.0.block.2.avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "features.7.0.block.2.fc1",
+      "type": "Conv2d",
+      "parameters": 55344
+    },
+    {
+      "name": "features.7.0.block.2.fc2",
+      "type": "Conv2d",
+      "parameters": 56448
+    },
+    {
+      "name": "features.7.0.block.2.activation",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "features.7.0.block.2.scale_activation",
+      "type": "Sigmoid",
+      "parameters": 0
+    },
+    {
+      "name": "features.7.0.block.3.0",
+      "type": "Conv2d",
+      "parameters": 368640
+    },
+    {
+      "name": "features.7.0.block.3.1",
+      "type": "BatchNorm2d",
+      "parameters": 640
+    },
+    {
+      "name": "features.7.0.stochastic_depth",
+      "type": "StochasticDepth",
+      "parameters": 0
+    },
+    {
+      "name": "features.8.0",
+      "type": "Conv2d",
+      "parameters": 409600
+    },
+    {
+      "name": "features.8.1",
+      "type": "BatchNorm2d",
+      "parameters": 2560
+    },
+    {
+      "name": "features.8.2",
+      "type": "SiLU",
+      "parameters": 0
+    },
+    {
+      "name": "avgpool",
+      "type": "AdaptiveAvgPool2d",
+      "parameters": 0
+    },
+    {
+      "name": "classifier.0",
+      "type": "Dropout",
+      "parameters": 0
+    },
+    {
+      "name": "classifier.1",
+      "type": "Linear",
+      "parameters": 28182
+    }
+  ]
+}
