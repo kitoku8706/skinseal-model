@@ -1,0 +1,33 @@
+{
+  "per_class": {
+    "Acne": 593,
+    "Actinic_Keratosis": 748,
+    "Benign_tumors": 1093,
+    "Bullous": 504,
+    "Candidiasis": 248,
+    "DrugEruption": 547,
+    "Eczema": 1010,
+    "Infestations_Bites": 524,
+    "Lichen": 553,
+    "Lupus": 311,
+    "Moles": 361,
+    "Psoriasis": 820,
+    "Rosacea": 254,
+    "Seborrh_Keratoses": 455,
+    "SkinCancer": 693,
+    "Sun_Sunlight_Damage": 312,
+    "Tinea": 923,
+    "Unknown_Normal": 1651,
+    "Vascular_Tumors": 543,
+    "Vasculitis": 461,
+    "Vitiligo": 714,
+    "Warts": 580
+  },
+  "total_images": 13898,
+  "acne_count": 593,
+  "non_acne_count": 13305,
+  "acne_percent": 4.266800978558066,
+  "non_acne_percent": 95.73319902144193,
+  "acne_to_nonacne_ratio": 0.04456971063509959,
+  "imbalance_severity": "severe"
+}
