@@ -1,0 +1,30 @@
+Classification Report (Accuracy: 0.7865)
+==================================================
+                     precision    recall  f1-score   support
+
+               Acne       0.94      0.89      0.91        65
+  Actinic_Keratosis       0.76      0.78      0.77        83
+      Benign_tumors       0.75      0.77      0.76       121
+            Bullous       0.73      0.69      0.71        55
+        Candidiasis       0.69      0.74      0.71        27
+       DrugEruption       0.76      0.69      0.72        61
+             Eczema       0.81      0.79      0.80       112
+ Infestations_Bites       0.70      0.65      0.67        60
+             Lichen       0.73      0.66      0.69        61
+              Lupus       0.59      0.65      0.62        34
+              Moles       0.67      0.70      0.68        40
+          Psoriasis       0.80      0.78      0.79        88
+            Rosacea       0.75      0.86      0.80        28
+  Seborrh_Keratoses       0.82      0.80      0.81        51
+         SkinCancer       0.78      0.68      0.72        77
+Sun_Sunlight_Damage       0.67      0.65      0.66        34
+              Tinea       0.68      0.80      0.74       102
+     Unknown_Normal       0.97      0.98      0.98       189
+    Vascular_Tumors       0.67      0.68      0.68        60
+         Vasculitis       0.79      0.79      0.79        52
+           Vitiligo       0.93      0.90      0.91        82
+              Warts       0.77      0.80      0.78        64
+
+           accuracy                           0.79      1546
+          macro avg       0.76      0.76      0.76      1546
+       weighted avg       0.79      0.79      0.79      1546
